@@ -1,0 +1,223 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Start navbar */
+nav{
+    box-shadow: 0 0 30px rgba(34, 33, 33, 0.445);
+    height: 80px;
+}
+.logo-nav{
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-left: 80px;
+}
+.nav-link{
+    font-size: 12px !important;
+    font-weight: bold !important;
+    letter-spacing: 2px;
+}
+.navbar-nav :hover{
+    color: black !important;
+    background-color: red;
+}
+/* End navbar */
+
+/* Start header */
+header{
+    background-image: url('../images/home/Hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120vh;
+}
+header h1{
+    font-size: 70px;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+}
+header p{
+    font-size: 20px;   
+    font-weight: 400;
+    margin-left: 100px;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+/* End header */
+
+/* Start section 1 */
+#section1{
+    background-color: rgb(244, 245, 247);
+    height: 500px;
+}
+#section1 span{
+    font-weight: bold;
+    margin-left: 230px;
+    margin-top: 50px;
+}
+#section1 .p1{
+    padding-top: 50px;
+}
+#section1 p{
+    text-align: justify;
+}
+#section1 .btn{
+    float: right;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+/* End section 1 */
+
+/* Start section 2 */
+#section2 svg{
+    margin: auto;
+    margin-top: 20px;
+}
+#section2 .card{
+    box-shadow: 0 0 25px black;
+    background-color: rgb(241, 240, 240);
+}
+
+/* End section 2 */
+
+/* Start section 3 */
+#section3 p{
+    font-size: 15px; 
+}
+#section3 .btn{
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+#section3 img{
+    width: 30rem;
+    height: 20rem;
+    float: right;
+}
+/* End section 3 */
+
+/* Start section 4 */
+#section4 .img1{
+    background-image: url('../images/home/section4-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 21rem;
+    height: 30rem;
+}
+#section4 .img2{
+    background-image: url('../images/home/section4-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 21rem;
+    height: 30rem;
+}
+#section4 .img3{
+    background-image: url('../images/home/section4-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 21rem;
+    height: 30rem;
+}
+#section4 .img4{
+    background-image: url('../images/home/section4-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 335px;
+    height: 30rem;
+}
+#section4 span{
+    margin-top: 20px;
+}
+#section4 button{
+    margin-top: 150px;
+}
+/* End section 4 */
+
+/* Start section 5 */
+#section5{
+    background-color: rgb(192,22,29);
+    background-image: url('../images/apropos/section-bg-img2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 150px;
+    margin: auto;
+}
+#section5 .btn{
+    float: right;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+/* End section 5 */
+
+/* Start infos-section */
+#infos-section{
+    background-color: rgb(39,39,39);
+    height: 100% ;
+    border-bottom: solid 1px white;
+}
+#infos-section a{
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: rgb(172, 172, 172) !important;
+    font-weight: bold;
+}
+#infos-section p{
+    color: rgb(114, 108, 108) !important;
+    font-size: 15px !important;
+}
+#infos-section svg{
+    width: 25px;
+    height: 25px;
+}
+.logo-reseaux{
+    margin-top: 25px !important;
+    margin-left: 100px !important;
+}
+.twitter-logo{
+    width: 25px !important;
+    height: 25px !important;
+    margin-right: 20px !important;
+}
+.facebook-logo{
+    width: 25px !important;
+    height: 25px !important;
+    margin-right: 20px !important;
+}
+.youtube-logo{
+    width: 25px !important;
+    height: 25px !important;
+    margin-right: 20px !important;
+}
+.instagram-logo{
+    width: 25px !important;
+    height: 25px !important;
+}
+/* End infos section */
+
+/* Start footer */
+#footer-page{
+    background-color: rgb(39,39,39);
+    text-align: center;
+    height: 100%;
+    color: rgb(172, 172, 172);
+    font-size: 15px;
+}
+#footer-page .foot-links-left{
+    color: red;
+    text-decoration: none;
+}
+/* End footer */
+
